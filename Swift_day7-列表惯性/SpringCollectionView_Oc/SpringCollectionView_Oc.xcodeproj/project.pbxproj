@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046903102015964F00A2A7ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469030F2015964F00A2A7ED /* AppDelegate.m */; };
+		046903132015964F00A2A7ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046903122015964F00A2A7ED /* ViewController.m */; };
+		046903162015964F00A2A7ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046903142015964F00A2A7ED /* Main.storyboard */; };
+		046903182015964F00A2A7ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 046903172015964F00A2A7ED /* Assets.xcassets */; };
+		0469031B2015964F00A2A7ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046903192015964F00A2A7ED /* LaunchScreen.storyboard */; };
+		0469031E2015964F00A2A7ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469031D2015964F00A2A7ED /* main.m */; };
+		046903282015964F00A2A7ED /* SpringCollectionView_OcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046903272015964F00A2A7ED /* SpringCollectionView_OcTests.m */; };
+		046903332015964F00A2A7ED /* SpringCollectionView_OcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046903322015964F00A2A7ED /* SpringCollectionView_OcUITests.m */; };
+		046903422015B06100A2A7ED /* SpringCollectionLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 046903412015B06100A2A7ED /* SpringCollectionLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046903242015964F00A2A7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046903032015964F00A2A7ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0469030A2015964F00A2A7ED;
+			remoteInfo = SpringCollectionView_Oc;
+		};
+		0469032F2015964F00A2A7ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046903032015964F00A2A7ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0469030A2015964F00A2A7ED;
+			remoteInfo = SpringCollectionView_Oc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0469030B2015964F00A2A7ED /* SpringCollectionView_Oc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringCollectionView_Oc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0469030E2015964F00A2A7ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0469030F2015964F00A2A7ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		046903112015964F00A2A7ED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		046903122015964F00A2A7ED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		046903152015964F00A2A7ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		046903172015964F00A2A7ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0469031A2015964F00A2A7ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0469031C2015964F00A2A7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0469031D2015964F00A2A7ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		046903232015964F00A2A7ED /* SpringCollectionView_OcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringCollectionView_OcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046903272015964F00A2A7ED /* SpringCollectionView_OcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringCollectionView_OcTests.m; sourceTree = "<group>"; };
+		046903292015964F00A2A7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0469032E2015964F00A2A7ED /* SpringCollectionView_OcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringCollectionView_OcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		046903322015964F00A2A7ED /* SpringCollectionView_OcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringCollectionView_OcUITests.m; sourceTree = "<group>"; };
+		046903342015964F00A2A7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046903402015B06100A2A7ED /* SpringCollectionLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringCollectionLayout.h; sourceTree = "<group>"; };
+		046903412015B06100A2A7ED /* SpringCollectionLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringCollectionLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046903082015964F00A2A7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046903202015964F00A2A7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0469032B2015964F00A2A7ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046903022015964F00A2A7ED = {
+			isa = PBXGroup;
+			children = (
+				0469030D2015964F00A2A7ED /* SpringCollectionView_Oc */,
+				046903262015964F00A2A7ED /* SpringCollectionView_OcTests */,
+				046903312015964F00A2A7ED /* SpringCollectionView_OcUITests */,
+				0469030C2015964F00A2A7ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0469030C2015964F00A2A7ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0469030B2015964F00A2A7ED /* SpringCollectionView_Oc.app */,
+				046903232015964F00A2A7ED /* SpringCollectionView_OcTests.xctest */,
+				0469032E2015964F00A2A7ED /* SpringCollectionView_OcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0469030D2015964F00A2A7ED /* SpringCollectionView_Oc */ = {
+			isa = PBXGroup;
+			children = (
+				0469030E2015964F00A2A7ED /* AppDelegate.h */,
+				0469030F2015964F00A2A7ED /* AppDelegate.m */,
+				046903112015964F00A2A7ED /* ViewController.h */,
+				046903122015964F00A2A7ED /* ViewController.m */,
+				046903142015964F00A2A7ED /* Main.storyboard */,
+				046903172015964F00A2A7ED /* Assets.xcassets */,
+				046903192015964F00A2A7ED /* LaunchScreen.storyboard */,
+				0469031C2015964F00A2A7ED /* Info.plist */,
+				0469031D2015964F00A2A7ED /* main.m */,
+				046903402015B06100A2A7ED /* SpringCollectionLayout.h */,
+				046903412015B06100A2A7ED /* SpringCollectionLayout.m */,
+			);
+			path = SpringCollectionView_Oc;
+			sourceTree = "<group>";
+		};
+		046903262015964F00A2A7ED /* SpringCollectionView_OcTests */ = {
+			isa = PBXGroup;
+			children = (
+				046903272015964F00A2A7ED /* SpringCollectionView_OcTests.m */,
+				046903292015964F00A2A7ED /* Info.plist */,
+			);
+			path = SpringCollectionView_OcTests;
+			sourceTree = "<group>";
+		};
+		046903312015964F00A2A7ED /* SpringCollectionView_OcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				046903322015964F00A2A7ED /* SpringCollectionView_OcUITests.m */,
+				046903342015964F00A2A7ED /* Info.plist */,
+			);
+			path = SpringCollectionView_OcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0469030A2015964F00A2A7ED /* SpringCollectionView_Oc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046903372015964F00A2A7ED /* Build configuration list for PBXNativeTarget "SpringCollectionView_Oc" */;
+			buildPhases = (
+				046903072015964F00A2A7ED /* Sources */,
+				046903082015964F00A2A7ED /* Frameworks */,
+				046903092015964F00A2A7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpringCollectionView_Oc;
+			productName = SpringCollectionView_Oc;
+			productReference = 0469030B2015964F00A2A7ED /* SpringCollectionView_Oc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		046903222015964F00A2A7ED /* SpringCollectionView_OcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0469033A2015964F00A2A7ED /* Build configuration list for PBXNativeTarget "SpringCollectionView_OcTests" */;
+			buildPhases = (
+				0469031F2015964F00A2A7ED /* Sources */,
+				046903202015964F00A2A7ED /* Frameworks */,
+				046903212015964F00A2A7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046903252015964F00A2A7ED /* PBXTargetDependency */,
+			);
+			name = SpringCollectionView_OcTests;
+			productName = SpringCollectionView_OcTests;
+			productReference = 046903232015964F00A2A7ED /* SpringCollectionView_OcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0469032D2015964F00A2A7ED /* SpringCollectionView_OcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0469033D2015964F00A2A7ED /* Build configuration list for PBXNativeTarget "SpringCollectionView_OcUITests" */;
+			buildPhases = (
+				0469032A2015964F00A2A7ED /* Sources */,
+				0469032B2015964F00A2A7ED /* Frameworks */,
+				0469032C2015964F00A2A7ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046903302015964F00A2A7ED /* PBXTargetDependency */,
+			);
+			name = SpringCollectionView_OcUITests;
+			productName = SpringCollectionView_OcUITests;
+			productReference = 0469032E2015964F00A2A7ED /* SpringCollectionView_OcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046903032015964F00A2A7ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					0469030A2015964F00A2A7ED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					046903222015964F00A2A7ED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0469030A2015964F00A2A7ED;
+					};
+					0469032D2015964F00A2A7ED = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0469030A2015964F00A2A7ED;
+					};
+				};
+			};
+			buildConfigurationList = 046903062015964F00A2A7ED /* Build configuration list for PBXProject "SpringCollectionView_Oc" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046903022015964F00A2A7ED;
+			productRefGroup = 0469030C2015964F00A2A7ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0469030A2015964F00A2A7ED /* SpringCollectionView_Oc */,
+				046903222015964F00A2A7ED /* SpringCollectionView_OcTests */,
+				0469032D2015964F00A2A7ED /* SpringCollectionView_OcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046903092015964F00A2A7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0469031B2015964F00A2A7ED /* LaunchScreen.storyboard in Resources */,
+				046903182015964F00A2A7ED /* Assets.xcassets in Resources */,
+				046903162015964F00A2A7ED /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046903212015964F00A2A7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0469032C2015964F00A2A7ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046903072015964F00A2A7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046903422015B06100A2A7ED /* SpringCollectionLayout.m in Sources */,
+				046903132015964F00A2A7ED /* ViewController.m in Sources */,
+				0469031E2015964F00A2A7ED /* main.m in Sources */,
+				046903102015964F00A2A7ED /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0469031F2015964F00A2A7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046903282015964F00A2A7ED /* SpringCollectionView_OcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0469032A2015964F00A2A7ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046903332015964F00A2A7ED /* SpringCollectionView_OcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046903252015964F00A2A7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0469030A2015964F00A2A7ED /* SpringCollectionView_Oc */;
+			targetProxy = 046903242015964F00A2A7ED /* PBXContainerItemProxy */;
+		};
+		046903302015964F00A2A7ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0469030A2015964F00A2A7ED /* SpringCollectionView_Oc */;
+			targetProxy = 0469032F2015964F00A2A7ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		046903142015964F00A2A7ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				046903152015964F00A2A7ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		046903192015964F00A2A7ED /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0469031A2015964F00A2A7ED /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		046903352015964F00A2A7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		046903362015964F00A2A7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		046903382015964F00A2A7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionView_Oc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.SpringCollectionView-Oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		046903392015964F00A2A7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionView_Oc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.SpringCollectionView-Oc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0469033B2015964F00A2A7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionView_OcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.SpringCollectionView-OcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringCollectionView_Oc.app/SpringCollectionView_Oc";
+			};
+			name = Debug;
+		};
+		0469033C2015964F00A2A7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionView_OcTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.SpringCollectionView-OcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringCollectionView_Oc.app/SpringCollectionView_Oc";
+			};
+			name = Release;
+		};
+		0469033E2015964F00A2A7ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionView_OcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.SpringCollectionView-OcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpringCollectionView_Oc;
+			};
+			name = Debug;
+		};
+		0469033F2015964F00A2A7ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionView_OcUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.SpringCollectionView-OcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpringCollectionView_Oc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046903062015964F00A2A7ED /* Build configuration list for PBXProject "SpringCollectionView_Oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046903352015964F00A2A7ED /* Debug */,
+				046903362015964F00A2A7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046903372015964F00A2A7ED /* Build configuration list for PBXNativeTarget "SpringCollectionView_Oc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046903382015964F00A2A7ED /* Debug */,
+				046903392015964F00A2A7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0469033A2015964F00A2A7ED /* Build configuration list for PBXNativeTarget "SpringCollectionView_OcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0469033B2015964F00A2A7ED /* Debug */,
+				0469033C2015964F00A2A7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0469033D2015964F00A2A7ED /* Build configuration list for PBXNativeTarget "SpringCollectionView_OcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0469033E2015964F00A2A7ED /* Debug */,
+				0469033F2015964F00A2A7ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046903032015964F00A2A7ED /* Project object */;
+}

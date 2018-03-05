@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A170BD2011F25F00382EB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A170BC2011F25F00382EB0 /* AppDelegate.swift */; };
+		04A170BF2011F25F00382EB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A170BE2011F25F00382EB0 /* ViewController.swift */; };
+		04A170C22011F25F00382EB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A170C02011F25F00382EB0 /* Main.storyboard */; };
+		04A170C42011F25F00382EB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A170C32011F25F00382EB0 /* Assets.xcassets */; };
+		04A170C72011F25F00382EB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A170C52011F25F00382EB0 /* LaunchScreen.storyboard */; };
+		04A170D22011F25F00382EB0 /* SpringCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A170D12011F25F00382EB0 /* SpringCollectionViewTests.swift */; };
+		04A170DD2011F25F00382EB0 /* SpringCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A170DC2011F25F00382EB0 /* SpringCollectionViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04A170CE2011F25F00382EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A170B12011F25F00382EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A170B82011F25F00382EB0;
+			remoteInfo = SpringCollectionView;
+		};
+		04A170D92011F25F00382EB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04A170B12011F25F00382EB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04A170B82011F25F00382EB0;
+			remoteInfo = SpringCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A170B92011F25F00382EB0 /* SpringCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpringCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A170BC2011F25F00382EB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04A170BE2011F25F00382EB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04A170C12011F25F00382EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04A170C32011F25F00382EB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04A170C62011F25F00382EB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04A170C82011F25F00382EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A170CD2011F25F00382EB0 /* SpringCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A170D12011F25F00382EB0 /* SpringCollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringCollectionViewTests.swift; sourceTree = "<group>"; };
+		04A170D32011F25F00382EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A170D82011F25F00382EB0 /* SpringCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04A170DC2011F25F00382EB0 /* SpringCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringCollectionViewUITests.swift; sourceTree = "<group>"; };
+		04A170DE2011F25F00382EB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04A170B62011F25F00382EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A170CA2011F25F00382EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A170D52011F25F00382EB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04A170B02011F25F00382EB0 = {
+			isa = PBXGroup;
+			children = (
+				04A170BB2011F25F00382EB0 /* SpringCollectionView */,
+				04A170D02011F25F00382EB0 /* SpringCollectionViewTests */,
+				04A170DB2011F25F00382EB0 /* SpringCollectionViewUITests */,
+				04A170BA2011F25F00382EB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04A170BA2011F25F00382EB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A170B92011F25F00382EB0 /* SpringCollectionView.app */,
+				04A170CD2011F25F00382EB0 /* SpringCollectionViewTests.xctest */,
+				04A170D82011F25F00382EB0 /* SpringCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04A170BB2011F25F00382EB0 /* SpringCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				04A170BC2011F25F00382EB0 /* AppDelegate.swift */,
+				04A170BE2011F25F00382EB0 /* ViewController.swift */,
+				04A170C02011F25F00382EB0 /* Main.storyboard */,
+				04A170C32011F25F00382EB0 /* Assets.xcassets */,
+				04A170C52011F25F00382EB0 /* LaunchScreen.storyboard */,
+				04A170C82011F25F00382EB0 /* Info.plist */,
+			);
+			path = SpringCollectionView;
+			sourceTree = "<group>";
+		};
+		04A170D02011F25F00382EB0 /* SpringCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04A170D12011F25F00382EB0 /* SpringCollectionViewTests.swift */,
+				04A170D32011F25F00382EB0 /* Info.plist */,
+			);
+			path = SpringCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		04A170DB2011F25F00382EB0 /* SpringCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04A170DC2011F25F00382EB0 /* SpringCollectionViewUITests.swift */,
+				04A170DE2011F25F00382EB0 /* Info.plist */,
+			);
+			path = SpringCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04A170B82011F25F00382EB0 /* SpringCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A170E12011F25F00382EB0 /* Build configuration list for PBXNativeTarget "SpringCollectionView" */;
+			buildPhases = (
+				04A170B52011F25F00382EB0 /* Sources */,
+				04A170B62011F25F00382EB0 /* Frameworks */,
+				04A170B72011F25F00382EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpringCollectionView;
+			productName = SpringCollectionView;
+			productReference = 04A170B92011F25F00382EB0 /* SpringCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04A170CC2011F25F00382EB0 /* SpringCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A170E42011F25F00382EB0 /* Build configuration list for PBXNativeTarget "SpringCollectionViewTests" */;
+			buildPhases = (
+				04A170C92011F25F00382EB0 /* Sources */,
+				04A170CA2011F25F00382EB0 /* Frameworks */,
+				04A170CB2011F25F00382EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A170CF2011F25F00382EB0 /* PBXTargetDependency */,
+			);
+			name = SpringCollectionViewTests;
+			productName = SpringCollectionViewTests;
+			productReference = 04A170CD2011F25F00382EB0 /* SpringCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04A170D72011F25F00382EB0 /* SpringCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04A170E72011F25F00382EB0 /* Build configuration list for PBXNativeTarget "SpringCollectionViewUITests" */;
+			buildPhases = (
+				04A170D42011F25F00382EB0 /* Sources */,
+				04A170D52011F25F00382EB0 /* Frameworks */,
+				04A170D62011F25F00382EB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04A170DA2011F25F00382EB0 /* PBXTargetDependency */,
+			);
+			name = SpringCollectionViewUITests;
+			productName = SpringCollectionViewUITests;
+			productReference = 04A170D82011F25F00382EB0 /* SpringCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04A170B12011F25F00382EB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04A170B82011F25F00382EB0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					04A170CC2011F25F00382EB0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04A170B82011F25F00382EB0;
+					};
+					04A170D72011F25F00382EB0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04A170B82011F25F00382EB0;
+					};
+				};
+			};
+			buildConfigurationList = 04A170B42011F25F00382EB0 /* Build configuration list for PBXProject "SpringCollectionView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04A170B02011F25F00382EB0;
+			productRefGroup = 04A170BA2011F25F00382EB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04A170B82011F25F00382EB0 /* SpringCollectionView */,
+				04A170CC2011F25F00382EB0 /* SpringCollectionViewTests */,
+				04A170D72011F25F00382EB0 /* SpringCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04A170B72011F25F00382EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A170C72011F25F00382EB0 /* LaunchScreen.storyboard in Resources */,
+				04A170C42011F25F00382EB0 /* Assets.xcassets in Resources */,
+				04A170C22011F25F00382EB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A170CB2011F25F00382EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A170D62011F25F00382EB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04A170B52011F25F00382EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A170BF2011F25F00382EB0 /* ViewController.swift in Sources */,
+				04A170BD2011F25F00382EB0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A170C92011F25F00382EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A170D22011F25F00382EB0 /* SpringCollectionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04A170D42011F25F00382EB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A170DD2011F25F00382EB0 /* SpringCollectionViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04A170CF2011F25F00382EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A170B82011F25F00382EB0 /* SpringCollectionView */;
+			targetProxy = 04A170CE2011F25F00382EB0 /* PBXContainerItemProxy */;
+		};
+		04A170DA2011F25F00382EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04A170B82011F25F00382EB0 /* SpringCollectionView */;
+			targetProxy = 04A170D92011F25F00382EB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04A170C02011F25F00382EB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A170C12011F25F00382EB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04A170C52011F25F00382EB0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04A170C62011F25F00382EB0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04A170DF2011F25F00382EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04A170E02011F25F00382EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04A170E22011F25F00382EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanqi.SpringCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04A170E32011F25F00382EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanqi.SpringCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04A170E52011F25F00382EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanqi.SpringCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringCollectionView.app/SpringCollectionView";
+			};
+			name = Debug;
+		};
+		04A170E62011F25F00382EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanqi.SpringCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpringCollectionView.app/SpringCollectionView";
+			};
+			name = Release;
+		};
+		04A170E82011F25F00382EB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanqi.SpringCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpringCollectionView;
+			};
+			name = Debug;
+		};
+		04A170E92011F25F00382EB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = SpringCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanqi.SpringCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpringCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04A170B42011F25F00382EB0 /* Build configuration list for PBXProject "SpringCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A170DF2011F25F00382EB0 /* Debug */,
+				04A170E02011F25F00382EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A170E12011F25F00382EB0 /* Build configuration list for PBXNativeTarget "SpringCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A170E22011F25F00382EB0 /* Debug */,
+				04A170E32011F25F00382EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A170E42011F25F00382EB0 /* Build configuration list for PBXNativeTarget "SpringCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A170E52011F25F00382EB0 /* Debug */,
+				04A170E62011F25F00382EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04A170E72011F25F00382EB0 /* Build configuration list for PBXNativeTarget "SpringCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04A170E82011F25F00382EB0 /* Debug */,
+				04A170E92011F25F00382EB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04A170B12011F25F00382EB0 /* Project object */;
+}

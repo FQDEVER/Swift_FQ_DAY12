@@ -1,0 +1,9 @@
+对于滑动比较快,左右摇晃的bug.
+
+主要是启动图的设定
+
+创建目录会导致的一个问题是默认从启动文件Launch Screen File获取而不是通过Launch Images Sourc获取
+
+我们需要通过Launch Images Sourc获取.
+
+问题就会解决

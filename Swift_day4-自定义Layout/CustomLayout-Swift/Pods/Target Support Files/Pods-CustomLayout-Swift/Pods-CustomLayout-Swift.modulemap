@@ -1,0 +1,6 @@
+framework module Pods_CustomLayout_Swift {
+  umbrella header "Pods-CustomLayout-Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

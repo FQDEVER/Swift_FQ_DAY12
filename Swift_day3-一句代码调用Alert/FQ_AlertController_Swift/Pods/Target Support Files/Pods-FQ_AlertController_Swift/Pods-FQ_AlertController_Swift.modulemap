@@ -1,0 +1,6 @@
+framework module Pods_FQ_AlertController_Swift {
+  umbrella header "Pods-FQ_AlertController_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

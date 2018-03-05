@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'FQ_AlertController_Swift' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'SnapKit'
+  # Pods for FQ_AlertController_Swift
+
+  target 'FQ_AlertController_SwiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FQ_AlertController_SwiftUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

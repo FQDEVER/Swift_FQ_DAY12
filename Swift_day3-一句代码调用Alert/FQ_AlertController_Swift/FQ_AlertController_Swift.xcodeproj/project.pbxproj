@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0486FE161FFC883600A5A73B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FE151FFC883600A5A73B /* AppDelegate.swift */; };
+		0486FE181FFC883600A5A73B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FE171FFC883600A5A73B /* ViewController.swift */; };
+		0486FE1B1FFC883600A5A73B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0486FE191FFC883600A5A73B /* Main.storyboard */; };
+		0486FE1D1FFC883600A5A73B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0486FE1C1FFC883600A5A73B /* Assets.xcassets */; };
+		0486FE201FFC883600A5A73B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0486FE1E1FFC883600A5A73B /* LaunchScreen.storyboard */; };
+		0486FE2B1FFC883600A5A73B /* FQ_AlertController_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FE2A1FFC883600A5A73B /* FQ_AlertController_SwiftTests.swift */; };
+		0486FE361FFC883600A5A73B /* FQ_AlertController_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FE351FFC883600A5A73B /* FQ_AlertController_SwiftUITests.swift */; };
+		0486FE441FFC8B3F00A5A73B /* FQ_AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0486FE431FFC8B3F00A5A73B /* FQ_AlertView.swift */; };
+		0DE56F688E55F93BDDF70AE9 /* Pods_FQ_AlertController_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81DDA5B747385BE9675129D2 /* Pods_FQ_AlertController_SwiftUITests.framework */; };
+		21FDF35262AD282550CF4647 /* Pods_FQ_AlertController_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42E06E3F299518ED1C172C5B /* Pods_FQ_AlertController_Swift.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		312D348C6D3B3F691D8211A4 /* Pods_FQ_AlertController_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DEE913A43822EA52093B416 /* Pods_FQ_AlertController_SwiftTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0486FE271FFC883600A5A73B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0486FE0A1FFC883600A5A73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0486FE111FFC883600A5A73B;
+			remoteInfo = FQ_AlertController_Swift;
+		};
+		0486FE321FFC883600A5A73B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0486FE0A1FFC883600A5A73B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0486FE111FFC883600A5A73B;
+			remoteInfo = FQ_AlertController_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0486FE121FFC883600A5A73B /* FQ_AlertController_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQ_AlertController_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0486FE151FFC883600A5A73B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0486FE171FFC883600A5A73B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0486FE1A1FFC883600A5A73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0486FE1C1FFC883600A5A73B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0486FE1F1FFC883600A5A73B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0486FE211FFC883600A5A73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0486FE261FFC883600A5A73B /* FQ_AlertController_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQ_AlertController_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0486FE2A1FFC883600A5A73B /* FQ_AlertController_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQ_AlertController_SwiftTests.swift; sourceTree = "<group>"; };
+		0486FE2C1FFC883600A5A73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0486FE311FFC883600A5A73B /* FQ_AlertController_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQ_AlertController_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0486FE351FFC883600A5A73B /* FQ_AlertController_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQ_AlertController_SwiftUITests.swift; sourceTree = "<group>"; };
+		0486FE371FFC883600A5A73B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0486FE431FFC8B3F00A5A73B /* FQ_AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FQ_AlertView.swift; sourceTree = "<group>"; };
+		0486FE461FFCB62600A5A73B /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0486FE481FFCB76300A5A73B /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEE913A43822EA52093B416 /* Pods_FQ_AlertController_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FQ_AlertController_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E06E3F299518ED1C172C5B /* Pods_FQ_AlertController_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FQ_AlertController_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		643868A15F942F29D4060D01 /* Pods-FQ_AlertController_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQ_AlertController_SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FQ_AlertController_SwiftTests/Pods-FQ_AlertController_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A3B5C67A1BBA7362042D451 /* Pods-FQ_AlertController_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQ_AlertController_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FQ_AlertController_Swift/Pods-FQ_AlertController_Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		81DDA5B747385BE9675129D2 /* Pods_FQ_AlertController_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FQ_AlertController_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E2416C64B57585A41E1CD09 /* Pods-FQ_AlertController_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQ_AlertController_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-FQ_AlertController_Swift/Pods-FQ_AlertController_Swift.release.xcconfig"; sourceTree = "<group>"; };
+		A5071F0B8AC4393B48ED30A9 /* Pods-FQ_AlertController_SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQ_AlertController_SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FQ_AlertController_SwiftTests/Pods-FQ_AlertController_SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4E97D4F740639F44A28DCAD /* Pods-FQ_AlertController_SwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQ_AlertController_SwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FQ_AlertController_SwiftUITests/Pods-FQ_AlertController_SwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B550A5F6D925F0EC9835D44C /* Pods-FQ_AlertController_SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQ_AlertController_SwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FQ_AlertController_SwiftUITests/Pods-FQ_AlertController_SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0486FE0F1FFC883600A5A73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FDF35262AD282550CF4647 /* Pods_FQ_AlertController_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0486FE231FFC883600A5A73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312D348C6D3B3F691D8211A4 /* Pods_FQ_AlertController_SwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0486FE2E1FFC883600A5A73B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE56F688E55F93BDDF70AE9 /* Pods_FQ_AlertController_SwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0486FE091FFC883600A5A73B = {
+			isa = PBXGroup;
+			children = (
+				0486FE141FFC883600A5A73B /* FQ_AlertController_Swift */,
+				0486FE291FFC883600A5A73B /* FQ_AlertController_SwiftTests */,
+				0486FE341FFC883600A5A73B /* FQ_AlertController_SwiftUITests */,
+				0486FE131FFC883600A5A73B /* Products */,
+				E1560349823D8F9B56864DB8 /* Pods */,
+				FE1EACEDCF023E1A975E9B17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0486FE131FFC883600A5A73B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0486FE121FFC883600A5A73B /* FQ_AlertController_Swift.app */,
+				0486FE261FFC883600A5A73B /* FQ_AlertController_SwiftTests.xctest */,
+				0486FE311FFC883600A5A73B /* FQ_AlertController_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0486FE141FFC883600A5A73B /* FQ_AlertController_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0486FE151FFC883600A5A73B /* AppDelegate.swift */,
+				0486FE171FFC883600A5A73B /* ViewController.swift */,
+				0486FE431FFC8B3F00A5A73B /* FQ_AlertView.swift */,
+				0486FE191FFC883600A5A73B /* Main.storyboard */,
+				0486FE1C1FFC883600A5A73B /* Assets.xcassets */,
+				0486FE1E1FFC883600A5A73B /* LaunchScreen.storyboard */,
+				0486FE211FFC883600A5A73B /* Info.plist */,
+			);
+			path = FQ_AlertController_Swift;
+			sourceTree = "<group>";
+		};
+		0486FE291FFC883600A5A73B /* FQ_AlertController_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				0486FE2A1FFC883600A5A73B /* FQ_AlertController_SwiftTests.swift */,
+				0486FE2C1FFC883600A5A73B /* Info.plist */,
+			);
+			path = FQ_AlertController_SwiftTests;
+			sourceTree = "<group>";
+		};
+		0486FE341FFC883600A5A73B /* FQ_AlertController_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0486FE351FFC883600A5A73B /* FQ_AlertController_SwiftUITests.swift */,
+				0486FE371FFC883600A5A73B /* Info.plist */,
+			);
+			path = FQ_AlertController_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		E1560349823D8F9B56864DB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A3B5C67A1BBA7362042D451 /* Pods-FQ_AlertController_Swift.debug.xcconfig */,
+				8E2416C64B57585A41E1CD09 /* Pods-FQ_AlertController_Swift.release.xcconfig */,
+				643868A15F942F29D4060D01 /* Pods-FQ_AlertController_SwiftTests.debug.xcconfig */,
+				A5071F0B8AC4393B48ED30A9 /* Pods-FQ_AlertController_SwiftTests.release.xcconfig */,
+				B550A5F6D925F0EC9835D44C /* Pods-FQ_AlertController_SwiftUITests.debug.xcconfig */,
+				B4E97D4F740639F44A28DCAD /* Pods-FQ_AlertController_SwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE1EACEDCF023E1A975E9B17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0486FE481FFCB76300A5A73B /* SnapKit.framework */,
+				0486FE461FFCB62600A5A73B /* SnapKit.framework */,
+				42E06E3F299518ED1C172C5B /* Pods_FQ_AlertController_Swift.framework */,
+				1DEE913A43822EA52093B416 /* Pods_FQ_AlertController_SwiftTests.framework */,
+				81DDA5B747385BE9675129D2 /* Pods_FQ_AlertController_SwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0486FE111FFC883600A5A73B /* FQ_AlertController_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0486FE3A1FFC883600A5A73B /* Build configuration list for PBXNativeTarget "FQ_AlertController_Swift" */;
+			buildPhases = (
+				A9D103F978D5BE8047C874C0 /* [CP] Check Pods Manifest.lock */,
+				0486FE0E1FFC883600A5A73B /* Sources */,
+				0486FE0F1FFC883600A5A73B /* Frameworks */,
+				0486FE101FFC883600A5A73B /* Resources */,
+				18B097097C83C879BEEE3B24 /* [CP] Embed Pods Frameworks */,
+				58B5FC67290BB6D21605F2A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQ_AlertController_Swift;
+			productName = FQ_AlertController_Swift;
+			productReference = 0486FE121FFC883600A5A73B /* FQ_AlertController_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0486FE251FFC883600A5A73B /* FQ_AlertController_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0486FE3D1FFC883600A5A73B /* Build configuration list for PBXNativeTarget "FQ_AlertController_SwiftTests" */;
+			buildPhases = (
+				4E7D683AF2403EC9024207CB /* [CP] Check Pods Manifest.lock */,
+				0486FE221FFC883600A5A73B /* Sources */,
+				0486FE231FFC883600A5A73B /* Frameworks */,
+				0486FE241FFC883600A5A73B /* Resources */,
+				F39B97EB85128FFDA4DF18E8 /* [CP] Embed Pods Frameworks */,
+				368339D1A48DBEB7E50E2F63 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0486FE281FFC883600A5A73B /* PBXTargetDependency */,
+			);
+			name = FQ_AlertController_SwiftTests;
+			productName = FQ_AlertController_SwiftTests;
+			productReference = 0486FE261FFC883600A5A73B /* FQ_AlertController_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0486FE301FFC883600A5A73B /* FQ_AlertController_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0486FE401FFC883600A5A73B /* Build configuration list for PBXNativeTarget "FQ_AlertController_SwiftUITests" */;
+			buildPhases = (
+				687F51239669CF51D53352E4 /* [CP] Check Pods Manifest.lock */,
+				0486FE2D1FFC883600A5A73B /* Sources */,
+				0486FE2E1FFC883600A5A73B /* Frameworks */,
+				0486FE2F1FFC883600A5A73B /* Resources */,
+				02336FAE7634246EFC3B0AA8 /* [CP] Embed Pods Frameworks */,
+				31812C94DA9C89D351B05F40 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0486FE331FFC883600A5A73B /* PBXTargetDependency */,
+			);
+			name = FQ_AlertController_SwiftUITests;
+			productName = FQ_AlertController_SwiftUITests;
+			productReference = 0486FE311FFC883600A5A73B /* FQ_AlertController_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0486FE0A1FFC883600A5A73B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					0486FE111FFC883600A5A73B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0486FE251FFC883600A5A73B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0486FE111FFC883600A5A73B;
+					};
+					0486FE301FFC883600A5A73B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0486FE111FFC883600A5A73B;
+					};
+				};
+			};
+			buildConfigurationList = 0486FE0D1FFC883600A5A73B /* Build configuration list for PBXProject "FQ_AlertController_Swift" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0486FE091FFC883600A5A73B;
+			productRefGroup = 0486FE131FFC883600A5A73B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0486FE111FFC883600A5A73B /* FQ_AlertController_Swift */,
+				0486FE251FFC883600A5A73B /* FQ_AlertController_SwiftTests */,
+				0486FE301FFC883600A5A73B /* FQ_AlertController_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0486FE101FFC883600A5A73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0486FE201FFC883600A5A73B /* LaunchScreen.storyboard in Resources */,
+				0486FE1D1FFC883600A5A73B /* Assets.xcassets in Resources */,
+				0486FE1B1FFC883600A5A73B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0486FE241FFC883600A5A73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0486FE2F1FFC883600A5A73B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02336FAE7634246EFC3B0AA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQ_AlertController_SwiftUITests/Pods-FQ_AlertController_SwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18B097097C83C879BEEE3B24 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQ_AlertController_Swift/Pods-FQ_AlertController_Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31812C94DA9C89D351B05F40 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQ_AlertController_SwiftUITests/Pods-FQ_AlertController_SwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		368339D1A48DBEB7E50E2F63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQ_AlertController_SwiftTests/Pods-FQ_AlertController_SwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E7D683AF2403EC9024207CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		58B5FC67290BB6D21605F2A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQ_AlertController_Swift/Pods-FQ_AlertController_Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		687F51239669CF51D53352E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A9D103F978D5BE8047C874C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F39B97EB85128FFDA4DF18E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FQ_AlertController_SwiftTests/Pods-FQ_AlertController_SwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0486FE0E1FFC883600A5A73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0486FE181FFC883600A5A73B /* ViewController.swift in Sources */,
+				0486FE441FFC8B3F00A5A73B /* FQ_AlertView.swift in Sources */,
+				0486FE161FFC883600A5A73B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0486FE221FFC883600A5A73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0486FE2B1FFC883600A5A73B /* FQ_AlertController_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0486FE2D1FFC883600A5A73B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0486FE361FFC883600A5A73B /* FQ_AlertController_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0486FE281FFC883600A5A73B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0486FE111FFC883600A5A73B /* FQ_AlertController_Swift */;
+			targetProxy = 0486FE271FFC883600A5A73B /* PBXContainerItemProxy */;
+		};
+		0486FE331FFC883600A5A73B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0486FE111FFC883600A5A73B /* FQ_AlertController_Swift */;
+			targetProxy = 0486FE321FFC883600A5A73B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0486FE191FFC883600A5A73B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0486FE1A1FFC883600A5A73B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0486FE1E1FFC883600A5A73B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0486FE1F1FFC883600A5A73B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0486FE381FFC883600A5A73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0486FE391FFC883600A5A73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0486FE3B1FFC883600A5A73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A3B5C67A1BBA7362042D451 /* Pods-FQ_AlertController_Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = FQ_AlertController_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.FQ-AlertController-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0486FE3C1FFC883600A5A73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E2416C64B57585A41E1CD09 /* Pods-FQ_AlertController_Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = FQ_AlertController_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.FQ-AlertController-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0486FE3E1FFC883600A5A73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 643868A15F942F29D4060D01 /* Pods-FQ_AlertController_SwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = FQ_AlertController_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.FQ-AlertController-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQ_AlertController_Swift.app/FQ_AlertController_Swift";
+			};
+			name = Debug;
+		};
+		0486FE3F1FFC883600A5A73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5071F0B8AC4393B48ED30A9 /* Pods-FQ_AlertController_SwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = FQ_AlertController_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.FQ-AlertController-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQ_AlertController_Swift.app/FQ_AlertController_Swift";
+			};
+			name = Release;
+		};
+		0486FE411FFC883600A5A73B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B550A5F6D925F0EC9835D44C /* Pods-FQ_AlertController_SwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = FQ_AlertController_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.FQ-AlertController-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQ_AlertController_Swift;
+			};
+			name = Debug;
+		};
+		0486FE421FFC883600A5A73B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E97D4F740639F44A28DCAD /* Pods-FQ_AlertController_SwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4XJ2W74NHP;
+				INFOPLIST_FILE = FQ_AlertController_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fanqi.FQ-AlertController-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQ_AlertController_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0486FE0D1FFC883600A5A73B /* Build configuration list for PBXProject "FQ_AlertController_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0486FE381FFC883600A5A73B /* Debug */,
+				0486FE391FFC883600A5A73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0486FE3A1FFC883600A5A73B /* Build configuration list for PBXNativeTarget "FQ_AlertController_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0486FE3B1FFC883600A5A73B /* Debug */,
+				0486FE3C1FFC883600A5A73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0486FE3D1FFC883600A5A73B /* Build configuration list for PBXNativeTarget "FQ_AlertController_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0486FE3E1FFC883600A5A73B /* Debug */,
+				0486FE3F1FFC883600A5A73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0486FE401FFC883600A5A73B /* Build configuration list for PBXNativeTarget "FQ_AlertController_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0486FE411FFC883600A5A73B /* Debug */,
+				0486FE421FFC883600A5A73B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0486FE0A1FFC883600A5A73B /* Project object */;
+}
